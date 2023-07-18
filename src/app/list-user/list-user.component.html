@@ -1,0 +1,23 @@
+<table class="table border">
+  <thead>
+    <tr>
+      <th scope="col">DNI</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Ap Paterno</th>
+      <th scope="col">Ap Materno</th>
+      <th scope="col">Mail</th>
+      <th scope="col">Teléfono</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let alumno of alumnos">
+      <th scope="row">{{alumno.idDni}}</th>
+      <td>{{alumno.nombre}}</td>
+      <td>{{alumno.apellidoPaterno}}</td>
+      <td>{{alumno.apellidoMaterno}}</td>
+      <td>{{alumno.mail}}</td>
+      <td>{{alumno.telefono}}</td>
+
+    </tr>
+</table>
+|
